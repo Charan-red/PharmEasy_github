@@ -16,11 +16,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import capstone.pharmeasy.base.BaseClass;
-import capstone.pharmeasy.reports.CustomReports;
+//import capstone.pharmeasy.reports.CustomReports;
 
 
-
-public class Browser extends CustomReports{
+//extends CustomReports
+public class Browser {
   
 	
 	WebDriver driver;
@@ -32,9 +32,9 @@ public class Browser extends CustomReports{
 	  String parentWindowHandle = driver.getWindowHandle();
   }
   
-  @AfterMethod
-	public void afterMethod(ITestResult itr) throws IOException, InterruptedException {
-		Thread.sleep(3000);
+//  @AfterMethod
+//	public void afterMethod(ITestResult itr) throws IOException, InterruptedException {
+//		Thread.sleep(3000);
 //			if(!itr.isSuccess()) {
 //			
 //			File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -53,19 +53,19 @@ public class Browser extends CustomReports{
 //	                
 //	                FileUtils.copyFile(source, imagefile);  
 //	            }
-		CustomReports.finishReportAfterTest(itr, null);
+//		CustomReports.finishReportAfterTest(itr, null);
 
-	}
+//	}
 
   @AfterClass
   public void afterClass() {
 	  driver.quit();
   }
-  @BeforeTest
-	public void beforeTest() throws Exception {
-		CustomReports.reportCreation();
-
-	}
+//  @BeforeTest
+//	public void beforeTest() throws Exception {
+//		CustomReports.reportCreation();
+//
+//	}
 
 //	@AfterMethod
 //	public void afterMethod(ITestResult itr) throws Exception {
