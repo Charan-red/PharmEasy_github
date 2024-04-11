@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -8,13 +8,59 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">122,663</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Testng</a></td><td class="num">11</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">281,429</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">capstone.pharmeasy.cucumbertest.PharmeasyTestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="3">1712819082578</td><td rowspan="3">54345</td></tr><tr class="passedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testng &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">capstone.pharmeasy.pim.PharmeasyTest</td><td><a href="#m0">afterMethod</a></td><td rowspan="1">1712836677675</td><td rowspan="1">3005</td></tr><tr><th colspan="4">Testng &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">capstone.pharmeasy.pim.PharmeasyTest</td><td><a href="#m1">pharmeasyOrderFromValuetest</a></td><td rowspan="1">1712836661563</td><td rowspan="1">16112</td></tr><tr><th colspan="4">Testng &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">capstone.pharmeasy.pim.PharmeasyTest</td><td><a href="#m2">afterClass</a></td><td rowspan="1">1712836680727</td><td rowspan="1">-1712836680727</td></tr><tr class="skippedeven"><td><a href="#m3">afterMethod</a></td><td rowspan="1">1712836680726</td><td rowspan="1">-1712836680726</td></tr><tr><th colspan="4">Testng &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">capstone.pharmeasy.pim.PharmeasyTest</td><td><a href="#m4">testFileUpload</a></td><td rowspan="1">1712836680680</td><td rowspan="1">0</td></tr><tr><th colspan="4">Testng &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">capstone.pharmeasy.pim.Carrers_Search</td><td><a href="#m5">SearchResultsBlankInputs</a></td><td rowspan="1">1712836499093</td><td rowspan="1">22539</td></tr><tr class="passedeven"><td><a href="#m6">SearchResultsValidInputs</a></td><td rowspan="1">1712836449289</td><td rowspan="1">27876</td></tr><tr class="passedodd"><td rowspan="2">capstone.pharmeasy.pim.CartPageTest</td><td><a href="#m7">AddToCart</a></td><td rowspan="1">1712836689446</td><td rowspan="1">16423</td></tr><tr class="passedodd"><td><a href="#m8">RemoveCart</a></td><td rowspan="1">1712836708885</td><td rowspan="1">3285</td></tr><tr class="passedeven"><td rowspan="3">capstone.pharmeasy.pim.HomePageTest</td><td><a href="#m9">check_invalid_deliverycode</a></td><td rowspan="1">1712836613321</td><td rowspan="1">15714</td></tr><tr class="passedeven"><td><a href="#m10">check_notinservice_deliverycode</a></td><td rowspan="1">1712836644702</td><td rowspan="1">12648</td></tr><tr class="passedeven"><td><a href="#m11">check_valid_deliverycode</a></td><td rowspan="1">1712836490640</td><td rowspan="1">5432</td></tr><tr class="passedodd"><td rowspan="2">capstone.pharmeasy.pim.PartnerTest</td><td><a href="#m12">BlankFields</a></td><td rowspan="1">1712836564868</td><td rowspan="1">24323</td></tr><tr class="passedodd"><td><a href="#m13">ValidFileds</a></td><td rowspan="1">1712836536218</td><td rowspan="1">25570</td></tr><tr class="passedeven"><td rowspan="2">capstone.pharmeasy.pim.PharmeasyTest</td><td><a href="#m14">featureBrandtest</a></td><td rowspan="1">1712836632053</td><td rowspan="1">9644</td></tr><tr class="passedeven"><td><a href="#m15">pharmeasySearchtest</a></td><td rowspan="1">1712836602974</td><td rowspan="1">7343</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">capstone.pharmeasy.cucumbertest.PharmeasyTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;i am on the pharmeasy home page&quot;</td><td>&quot;Pharmeasy pacakge functionality&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">capstone.pharmeasy.cucumbertest.PharmeasyTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add a personal care product to the cart&quot;</td><td>&quot;Pharmeasy pacakge functionality&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">capstone.pharmeasy.cucumbertest.PharmeasyTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Sort products by Discount&quot;</td><td>&quot;Pharmeasy pacakge functionality&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testng</h2><h3 id="m0">capstone.pharmeasy.pim.PharmeasyTest#afterMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=pharmeasyOrderFromValuetest status=FAILURE method=PharmeasyTest.pharmeasyOrderFromValuetest()[pri:3, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at capstone.pharmeasy.utils.TestUtility.capturescreenshot(TestUtility.java:16)
+	at capstone.pharmeasy.reports.CustomReports.finishReportAfterTest(CustomReports.java:38)
+	at capstone.pharmeasy.pim.Browser.afterMethod(Browser.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">capstone.pharmeasy.pim.PharmeasyTest#pharmeasyOrderFromValuetest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;li class=&quot;MuiButtonBase-root MuiListItem-root MuiMenuItem-root Select_listRoot__QBKiS QuantitySelector_menuItemsRoot__XWmq1 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;0&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot; data-value=&quot;1&quot;&gt;...&lt;/li&gt; is not clickable at point (89, 325). Other element would receive the click: &lt;li class=&quot;MuiButtonBase-root MuiListItem-root MuiMenuItem-root Select_listRoot__QBKiS QuantitySelector_menuItemsRoot__XWmq1 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;-1&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot; data-value=&quot;3&quot;&gt;...&lt;/li&gt;
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.22&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9a079824632424e0529b008a3c170f9d, clickElement {id=f.ABDF7E8D3D11AB75AA2F14EF069544D0.d.39AECE41A258A470B86850EE9DBD7F63.e.952}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59952}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Users\p1357920\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59952/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (9a079824632424e0529b008a3c170f9d)] -&gt; xpath: //li[normalize-space()=&apos;1&apos;]]
+Session ID: 9a079824632424e0529b008a3c170f9d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at capstone.pharmeasy.po.OrderValuePO.addtoCart(OrderValuePO.java:70)
+	at capstone.pharmeasy.pim.PharmeasyTest.pharmeasyOrderFromValuetest(PharmeasyTest.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">capstone.pharmeasy.pim.PharmeasyTest#afterClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">capstone.pharmeasy.pim.PharmeasyTest#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">capstone.pharmeasy.pim.PharmeasyTest#testFileUpload</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at capstone.pharmeasy.utils.TestUtility.capturescreenshot(TestUtility.java:16)
+	at capstone.pharmeasy.reports.CustomReports.finishReportAfterTest(CustomReports.java:38)
+	at capstone.pharmeasy.pim.Browser.afterMethod(Browser.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">capstone.pharmeasy.pim.Carrers_Search#SearchResultsBlankInputs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">capstone.pharmeasy.pim.Carrers_Search#SearchResultsValidInputs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">capstone.pharmeasy.pim.CartPageTest#AddToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">capstone.pharmeasy.pim.CartPageTest#RemoveCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">capstone.pharmeasy.pim.HomePageTest#check_invalid_deliverycode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">capstone.pharmeasy.pim.HomePageTest#check_notinservice_deliverycode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">capstone.pharmeasy.pim.HomePageTest#check_valid_deliverycode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">capstone.pharmeasy.pim.PartnerTest#BlankFields</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>null</td><td>8367337635</td><td>dummy56@gmail.com</td><td>411057</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">capstone.pharmeasy.pim.PartnerTest#ValidFileds</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Charan</td><td>8367337635</td><td>dummy56@gmail.com</td><td>411057</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">capstone.pharmeasy.pim.PharmeasyTest#featureBrandtest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">capstone.pharmeasy.pim.PharmeasyTest#pharmeasySearchtest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

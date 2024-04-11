@@ -1,79 +1,456 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="8" total="21" passed="11" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-11T12:34:41 IST" name="Default suite" finished-at="2024-04-11T12:36:44 IST" duration-ms="122663">
+  <suite started-at="2024-04-11T17:23:55 IST" name="Suite" finished-at="2024-04-11T17:28:37 IST" duration-ms="281429">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstone.pharmeasy.cucumbertest.PharmeasyTestRunner@3d829787]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-11T12:34:41 IST" name="Default test" finished-at="2024-04-11T12:36:44 IST" duration-ms="122663">
-      <class name="capstone.pharmeasy.cucumbertest.PharmeasyTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstone.pharmeasy.cucumbertest.PharmeasyTestRunner@3d829787]" started-at="2024-04-11T12:34:41 IST" name="setUpClass" finished-at="2024-04-11T12:34:42 IST" duration-ms="741" status="PASS">
+    <test started-at="2024-04-11T17:23:55 IST" name="Testng" finished-at="2024-04-11T17:28:37 IST" duration-ms="281429">
+      <class name="capstone.pharmeasy.pim.Carrers_Search">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33]" started-at="2024-04-11T17:23:55 IST" name="beforeTest" finished-at="2024-04-11T17:23:55 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33]" started-at="2024-04-11T17:23:55 IST" name="beforeClass" finished-at="2024-04-11T17:24:09 IST" duration-ms="13318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="SearchResultsValidInputs()[pri:1, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33]" started-at="2024-04-11T17:24:09 IST" name="SearchResultsValidInputs" finished-at="2024-04-11T17:24:37 IST" duration-ms="27876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResultsValidInputs -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33]" started-at="2024-04-11T17:24:37 IST" name="afterMethod" finished-at="2024-04-11T17:24:40 IST" duration-ms="3045" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@41576e84]]>
+                <![CDATA[[TestResult name=SearchResultsValidInputs status=SUCCESS method=Carrers_Search.SearchResultsValidInputs()[pri:1, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstone.pharmeasy.cucumbertest.PharmeasyTestRunner@3d829787]" started-at="2024-04-11T12:34:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-11T12:35:36 IST" duration-ms="54345" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SearchResultsBlankInputs()[pri:2, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33]" started-at="2024-04-11T17:24:59 IST" name="SearchResultsBlankInputs" finished-at="2024-04-11T17:25:21 IST" duration-ms="22539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResultsBlankInputs -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33]" started-at="2024-04-11T17:25:21 IST" name="afterMethod" finished-at="2024-04-11T17:25:24 IST" duration-ms="3017" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["i am on the pharmeasy home page"]]>
+                <![CDATA[[TestResult name=SearchResultsBlankInputs status=SUCCESS method=Carrers_Search.SearchResultsBlankInputs()[pri:2, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33]" started-at="2024-04-11T17:25:24 IST" name="afterClass" finished-at="2024-04-11T17:25:25 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:capstone.pharmeasy.pim.Carrers_Search@3e27aa33]" started-at="2024-04-11T17:28:36 IST" name="afterTest" finished-at="2024-04-11T17:28:37 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- capstone.pharmeasy.pim.Carrers_Search -->
+      <class name="capstone.pharmeasy.pim.PartnerTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:capstone.pharmeasy.pim.PartnerTest@2e385cce]" started-at="2024-04-11T17:25:25 IST" name="beforeClass" finished-at="2024-04-11T17:25:34 IST" duration-ms="8739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="ValidFileds(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:capstone.pharmeasy.pim.PartnerTest@2e385cce]" started-at="2024-04-11T17:25:36 IST" name="ValidFileds" data-provider="testdata" finished-at="2024-04-11T17:26:01 IST" duration-ms="25570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Charan]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Pharmeasy pacakge functionality"]]>
+                <![CDATA[8367337635]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dummy56@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[411057]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstone.pharmeasy.cucumbertest.PharmeasyTestRunner@3d829787]" started-at="2024-04-11T12:35:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-11T12:36:11 IST" duration-ms="34589" status="PASS">
+        </test-method> <!-- ValidFileds -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.PartnerTest@2e385cce]" started-at="2024-04-11T17:26:01 IST" name="afterMethod" finished-at="2024-04-11T17:26:04 IST" duration-ms="3007" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Add a personal care product to the cart"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Pharmeasy pacakge functionality"]]>
+                <![CDATA[[TestResult name=ValidFileds status=SUCCESS method=PartnerTest.ValidFileds(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:capstone.pharmeasy.pim.PartnerTest@2e385cce] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstone.pharmeasy.cucumbertest.PharmeasyTestRunner@3d829787]" started-at="2024-04-11T12:36:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-11T12:36:41 IST" duration-ms="30445" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method signature="BlankFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:capstone.pharmeasy.pim.PartnerTest@2e385cce]" started-at="2024-04-11T17:26:04 IST" name="BlankFields" data-provider="testdata_1" finished-at="2024-04-11T17:26:29 IST" duration-ms="24323" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8367337635]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dummy56@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[411057]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankFields -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.PartnerTest@2e385cce]" started-at="2024-04-11T17:26:29 IST" name="afterMethod" finished-at="2024-04-11T17:26:32 IST" duration-ms="3015" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Sort products by Discount"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Pharmeasy pacakge functionality"]]>
+                <![CDATA[[TestResult name=BlankFields status=SUCCESS method=PartnerTest.BlankFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:capstone.pharmeasy.pim.PartnerTest@2e385cce] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstone.pharmeasy.cucumbertest.PharmeasyTestRunner@3d829787]" started-at="2024-04-11T12:36:41 IST" name="tearDownClass" finished-at="2024-04-11T12:36:44 IST" duration-ms="2447" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:capstone.pharmeasy.pim.PartnerTest@2e385cce]" started-at="2024-04-11T17:26:32 IST" name="afterClass" finished-at="2024-04-11T17:26:33 IST" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- capstone.pharmeasy.cucumbertest.PharmeasyTestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- capstone.pharmeasy.pim.PartnerTest -->
+      <class name="capstone.pharmeasy.pim.CartPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:capstone.pharmeasy.pim.CartPageTest@298a5e20]" started-at="2024-04-11T17:28:00 IST" name="beforeClass" finished-at="2024-04-11T17:28:09 IST" duration-ms="8719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AddToCart()[pri:0, instance:capstone.pharmeasy.pim.CartPageTest@298a5e20]" started-at="2024-04-11T17:28:09 IST" name="AddToCart" finished-at="2024-04-11T17:28:25 IST" duration-ms="16423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.CartPageTest@298a5e20]" started-at="2024-04-11T17:28:25 IST" name="afterMethod" finished-at="2024-04-11T17:28:28 IST" duration-ms="3002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=CartPageTest.AddToCart()[pri:0, instance:capstone.pharmeasy.pim.CartPageTest@298a5e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="RemoveCart()[pri:0, instance:capstone.pharmeasy.pim.CartPageTest@298a5e20]" started-at="2024-04-11T17:28:28 IST" name="RemoveCart" finished-at="2024-04-11T17:28:32 IST" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveCart -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.CartPageTest@298a5e20]" started-at="2024-04-11T17:28:32 IST" name="afterMethod" finished-at="2024-04-11T17:28:35 IST" duration-ms="3008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RemoveCart status=SUCCESS method=CartPageTest.RemoveCart()[pri:0, instance:capstone.pharmeasy.pim.CartPageTest@298a5e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:capstone.pharmeasy.pim.CartPageTest@298a5e20]" started-at="2024-04-11T17:28:35 IST" name="afterClass" finished-at="2024-04-11T17:28:36 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- capstone.pharmeasy.pim.CartPageTest -->
+      <class name="capstone.pharmeasy.pim.HomePageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10]" started-at="2024-04-11T17:24:40 IST" name="beforeClass" finished-at="2024-04-11T17:24:50 IST" duration-ms="10413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="check_valid_deliverycode()[pri:1, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10]" started-at="2024-04-11T17:24:50 IST" name="check_valid_deliverycode" finished-at="2024-04-11T17:24:56 IST" duration-ms="5432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_valid_deliverycode -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10]" started-at="2024-04-11T17:24:56 IST" name="afterMethod" finished-at="2024-04-11T17:24:59 IST" duration-ms="3014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_valid_deliverycode status=SUCCESS method=HomePageTest.check_valid_deliverycode()[pri:1, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="check_invalid_deliverycode()[pri:2, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10]" started-at="2024-04-11T17:26:53 IST" name="check_invalid_deliverycode" finished-at="2024-04-11T17:27:09 IST" duration-ms="15714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_invalid_deliverycode -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10]" started-at="2024-04-11T17:27:09 IST" name="afterMethod" finished-at="2024-04-11T17:27:12 IST" duration-ms="3013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_invalid_deliverycode status=SUCCESS method=HomePageTest.check_invalid_deliverycode()[pri:2, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="check_notinservice_deliverycode()[pri:3, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10]" started-at="2024-04-11T17:27:24 IST" name="check_notinservice_deliverycode" finished-at="2024-04-11T17:27:37 IST" duration-ms="12648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_notinservice_deliverycode -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10]" started-at="2024-04-11T17:27:37 IST" name="afterMethod" finished-at="2024-04-11T17:27:40 IST" duration-ms="3013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_notinservice_deliverycode status=SUCCESS method=HomePageTest.check_notinservice_deliverycode()[pri:3, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:capstone.pharmeasy.pim.HomePageTest@2a7f1f10]" started-at="2024-04-11T17:27:40 IST" name="afterClass" finished-at="2024-04-11T17:27:41 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- capstone.pharmeasy.pim.HomePageTest -->
+      <class name="capstone.pharmeasy.pim.PharmeasyTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:26:33 IST" name="beforeClass" finished-at="2024-04-11T17:26:42 IST" duration-ms="9819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="pharmeasySearchtest()[pri:1, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:26:42 IST" name="pharmeasySearchtest" finished-at="2024-04-11T17:26:50 IST" duration-ms="7343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pharmeasySearchtest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:26:50 IST" name="afterMethod" finished-at="2024-04-11T17:26:53 IST" duration-ms="3001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pharmeasySearchtest status=SUCCESS method=PharmeasyTest.pharmeasySearchtest()[pri:1, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="featureBrandtest()[pri:2, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:27:12 IST" name="featureBrandtest" finished-at="2024-04-11T17:27:21 IST" duration-ms="9644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featureBrandtest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:27:21 IST" name="afterMethod" finished-at="2024-04-11T17:27:24 IST" duration-ms="3002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=featureBrandtest status=SUCCESS method=PharmeasyTest.featureBrandtest()[pri:2, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="pharmeasyOrderFromValuetest()[pri:3, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:27:41 IST" name="pharmeasyOrderFromValuetest" finished-at="2024-04-11T17:27:57 IST" duration-ms="16112" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Select_listRoot__QBKiS QuantitySelector_menuItemsRoot__XWmq1 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button" tabindex="0" role="option" aria-disabled="false" data-value="1">...</li> is not clickable at point (89, 325). Other element would receive the click: <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Select_listRoot__QBKiS QuantitySelector_menuItemsRoot__XWmq1 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button" tabindex="-1" role="option" aria-disabled="false" data-value="3">...</li>
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9a079824632424e0529b008a3c170f9d, clickElement {id=f.ABDF7E8D3D11AB75AA2F14EF069544D0.d.39AECE41A258A470B86850EE9DBD7F63.e.952}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59952}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Users\p1357920\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59952/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (9a079824632424e0529b008a3c170f9d)] -> xpath: //li[normalize-space()='1']]
+Session ID: 9a079824632424e0529b008a3c170f9d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Select_listRoot__QBKiS QuantitySelector_menuItemsRoot__XWmq1 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button" tabindex="0" role="option" aria-disabled="false" data-value="1">...</li> is not clickable at point (89, 325). Other element would receive the click: <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Select_listRoot__QBKiS QuantitySelector_menuItemsRoot__XWmq1 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button" tabindex="-1" role="option" aria-disabled="false" data-value="3">...</li>
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9a079824632424e0529b008a3c170f9d, clickElement {id=f.ABDF7E8D3D11AB75AA2F14EF069544D0.d.39AECE41A258A470B86850EE9DBD7F63.e.952}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59952}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Users\p1357920\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59952/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (9a079824632424e0529b008a3c170f9d)] -> xpath: //li[normalize-space()='1']]
+Session ID: 9a079824632424e0529b008a3c170f9d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy28.click(Unknown Source)
+at capstone.pharmeasy.po.OrderValuePO.addtoCart(OrderValuePO.java:70)
+at capstone.pharmeasy.pim.PharmeasyTest.pharmeasyOrderFromValuetest(PharmeasyTest.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pharmeasyOrderFromValuetest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:27:57 IST" name="afterMethod" finished-at="2024-04-11T17:28:00 IST" duration-ms="3005" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pharmeasyOrderFromValuetest status=FAILURE method=PharmeasyTest.pharmeasyOrderFromValuetest()[pri:3, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at capstone.pharmeasy.utils.TestUtility.capturescreenshot(TestUtility.java:16)
+at capstone.pharmeasy.reports.CustomReports.finishReportAfterTest(CustomReports.java:38)
+at capstone.pharmeasy.pim.Browser.afterMethod(Browser.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testFileUpload()[pri:4, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:28:00 IST" name="testFileUpload" finished-at="2024-04-11T17:28:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at capstone.pharmeasy.utils.TestUtility.capturescreenshot(TestUtility.java:16)
+at capstone.pharmeasy.reports.CustomReports.finishReportAfterTest(CustomReports.java:38)
+at capstone.pharmeasy.pim.Browser.afterMethod(Browser.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileUpload -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:28:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1712836680726" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:capstone.pharmeasy.pim.PharmeasyTest@2ddc9a9f]" started-at="2024-04-11T17:28:00 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1712836680727" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- capstone.pharmeasy.pim.PharmeasyTest -->
+    </test> <!-- Testng -->
+  </suite> <!-- Suite -->
 </testng-results>

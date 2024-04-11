@@ -5,9 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -24,9 +23,8 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\P1357913\AppData\Local\Temp\testng-eclipse-33780253\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\p1357920\Downloads\Dummy_PharmEasy\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>1 group</span>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,31 +91,99 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">13 methods, 1 failed,  1 skipped,  11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.PharmeasyTest" class="method navigator-link" hash-for-method="pharmeasyOrderFromValuetest">pharmeasyOrderFromValuetest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.PharmeasyTest" class="method navigator-link" hash-for-method="testFileUpload">testFileUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="capstone.pharmeasy.cucumbertest.PharmeasyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;i am on the pharmeasy home page&quot;, &quot;Pharmeasy pacakge functionality&quot;)">runScenario("i am on the pharmeasy home page", "Pharmeasy pacakge functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.CartPageTest" class="method navigator-link" hash-for-method="AddToCart">AddToCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="capstone.pharmeasy.cucumbertest.PharmeasyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add a personal care product to the cart&quot;, &quot;Pharmeasy pacakge functionality&quot;)">runScenario("Add a personal care product to the cart", "Pharmeasy pacakge functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.PartnerTest" class="method navigator-link" hash-for-method="BlankFields(null, 8367337635, dummy56@gmail.com, 411057)">BlankFields(null, 8367337635, dummy56@gmail.com, 411057)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="capstone.pharmeasy.cucumbertest.PharmeasyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Sort products by Discount&quot;, &quot;Pharmeasy pacakge functionality&quot;)">runScenario("Sort products by Discount", "Pharmeasy pacakge functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.CartPageTest" class="method navigator-link" hash-for-method="RemoveCart">RemoveCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.Carrers_Search" class="method navigator-link" hash-for-method="SearchResultsBlankInputs">SearchResultsBlankInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.Carrers_Search" class="method navigator-link" hash-for-method="SearchResultsValidInputs">SearchResultsValidInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.PartnerTest" class="method navigator-link" hash-for-method="ValidFileds(Charan, 8367337635, dummy56@gmail.com, 411057)">ValidFileds(Charan, 8367337635, dummy56@gmail.com, 411057)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.HomePageTest" class="method navigator-link" hash-for-method="check_invalid_deliverycode">check_invalid_deliverycode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.HomePageTest" class="method navigator-link" hash-for-method="check_notinservice_deliverycode">check_notinservice_deliverycode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.HomePageTest" class="method navigator-link" hash-for-method="check_valid_deliverycode">check_valid_deliverycode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.PharmeasyTest" class="method navigator-link" hash-for-method="featureBrandtest">featureBrandtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="capstone.pharmeasy.pim.PharmeasyTest" class="method navigator-link" hash-for-method="pharmeasySearchtest">pharmeasySearchtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -128,173 +194,554 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">capstone.pharmeasy.cucumbertest.PharmeasyTestRunner</span>
+              <img src="failed.png"/>
+              <span class="class-name">capstone.pharmeasy.pim.PharmeasyTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;i am on the pharmeasy home page&quot;, &quot;Pharmeasy pacakge functionality&quot;)">
-                  </a> <!-- runScenario("i am on the pharmeasy home page", "Pharmeasy pacakge functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("i am on the pharmeasy home page", "Pharmeasy pacakge functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Add a personal care product to the cart&quot;, &quot;Pharmeasy pacakge functionality&quot;)">
-                  </a> <!-- runScenario("Add a personal care product to the cart", "Pharmeasy pacakge functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Add a personal care product to the cart", "Pharmeasy pacakge functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Sort products by Discount&quot;, &quot;Pharmeasy pacakge functionality&quot;)">
-                  </a> <!-- runScenario("Sort products by Discount", "Pharmeasy pacakge functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Sort products by Discount", "Pharmeasy pacakge functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
+                  <a name="pharmeasyOrderFromValuetest">
+                  </a> <!-- pharmeasyOrderFromValuetest -->
+                  <span class="method-name">pharmeasyOrderFromValuetest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;li class=&quot;MuiButtonBase-root MuiListItem-root MuiMenuItem-root Select_listRoot__QBKiS QuantitySelector_menuItemsRoot__XWmq1 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;0&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot; data-value=&quot;1&quot;&gt;...&lt;/li&gt; is not clickable at point (89, 325). Other element would receive the click: &lt;li class=&quot;MuiButtonBase-root MuiListItem-root MuiMenuItem-root Select_listRoot__QBKiS QuantitySelector_menuItemsRoot__XWmq1 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;-1&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot; data-value=&quot;3&quot;&gt;...&lt;/li&gt;
+  (Session info: MicrosoftEdge=123.0.2420.81)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.22&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9a079824632424e0529b008a3c170f9d, clickElement {id=f.ABDF7E8D3D11AB75AA2F14EF069544D0.d.39AECE41A258A470B86850EE9DBD7F63.e.952}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59952}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Users\p1357920\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59952/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (9a079824632424e0529b008a3c170f9d)] -&gt; xpath: //li[normalize-space()=&apos;1&apos;]]
+Session ID: 9a079824632424e0529b008a3c170f9d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at capstone.pharmeasy.po.OrderValuePO.addtoCart(OrderValuePO.java:70)
+	at capstone.pharmeasy.pim.PharmeasyTest.pharmeasyOrderFromValuetest(PharmeasyTest.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">capstone.pharmeasy.pim.PharmeasyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFileUpload">
+                  </a> <!-- testFileUpload -->
+                  <span class="method-name">testFileUpload</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at capstone.pharmeasy.utils.TestUtility.capturescreenshot(TestUtility.java:16)
+	at capstone.pharmeasy.reports.CustomReports.finishReportAfterTest(CustomReports.java:38)
+	at capstone.pharmeasy.pim.Browser.afterMethod(Browser.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">capstone.pharmeasy.pim.PharmeasyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="featureBrandtest">
+                  </a> <!-- featureBrandtest -->
+                  <span class="method-name">featureBrandtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pharmeasySearchtest">
+                  </a> <!-- pharmeasySearchtest -->
+                  <span class="method-name">pharmeasySearchtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">capstone.pharmeasy.pim.PartnerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BlankFields(null, 8367337635, dummy56@gmail.com, 411057)">
+                  </a> <!-- BlankFields(null, 8367337635, dummy56@gmail.com, 411057) -->
+                  <span class="method-name">BlankFields</span>
+                  <span class="parameters">(null, 8367337635, dummy56@gmail.com, 411057)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidFileds(Charan, 8367337635, dummy56@gmail.com, 411057)">
+                  </a> <!-- ValidFileds(Charan, 8367337635, dummy56@gmail.com, 411057) -->
+                  <span class="method-name">ValidFileds</span>
+                  <span class="parameters">(Charan, 8367337635, dummy56@gmail.com, 411057)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">capstone.pharmeasy.pim.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_invalid_deliverycode">
+                  </a> <!-- check_invalid_deliverycode -->
+                  <span class="method-name">check_invalid_deliverycode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_notinservice_deliverycode">
+                  </a> <!-- check_notinservice_deliverycode -->
+                  <span class="method-name">check_notinservice_deliverycode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_valid_deliverycode">
+                  </a> <!-- check_valid_deliverycode -->
+                  <span class="method-name">check_valid_deliverycode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">capstone.pharmeasy.pim.CartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCart">
+                  </a> <!-- AddToCart -->
+                  <span class="method-name">AddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoveCart">
+                  </a> <!-- RemoveCart -->
+                  <span class="method-name">RemoveCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">capstone.pharmeasy.pim.Carrers_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchResultsBlankInputs">
+                  </a> <!-- SearchResultsBlankInputs -->
+                  <span class="method-name">SearchResultsBlankInputs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchResultsValidInputs">
+                  </a> <!-- SearchResultsValidInputs -->
+                  <span class="method-name">SearchResultsValidInputs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\P1357913\AppData\Local\Temp\testng-eclipse-33780253\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\p1357920\Downloads\Dummy_PharmEasy\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testng&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;capstone.pharmeasy.cucumbertest.PharmeasyTestRunner&quot;/&gt;
+      &lt;class name=&quot;capstone.pharmeasy.pim.Carrers_Search&quot;/&gt;
+      &lt;class name=&quot;capstone.pharmeasy.pim.PartnerTest&quot;/&gt;
+      &lt;class name=&quot;capstone.pharmeasy.pim.PharmeasyTest&quot;/&gt;
+      &lt;class name=&quot;capstone.pharmeasy.pim.CartPageTest&quot;/&gt;
+      &lt;class name=&quot;capstone.pharmeasy.cucumbertest.PharmeasyStepDef&quot;/&gt;
+      &lt;class name=&quot;capstone.pharmeasy.pim.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Testng --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Testng (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">cucumber</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">runScenario</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'capstone.pharmeasy.cucumbertest.PharmeasyTestRunner')
-data.setCell(0, 3, 54345);
+data.setCell(0, 1, 'SearchResultsValidInputs')
+data.setCell(0, 2, 'capstone.pharmeasy.pim.Carrers_Search')
+data.setCell(0, 3, 27876);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'capstone.pharmeasy.cucumbertest.PharmeasyTestRunner')
-data.setCell(1, 3, 34589);
+data.setCell(1, 1, 'ValidFileds')
+data.setCell(1, 2, 'capstone.pharmeasy.pim.PartnerTest')
+data.setCell(1, 3, 25570);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'capstone.pharmeasy.cucumbertest.PharmeasyTestRunner')
-data.setCell(2, 3, 30445);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(2, 1, 'BlankFields')
+data.setCell(2, 2, 'capstone.pharmeasy.pim.PartnerTest')
+data.setCell(2, 3, 24323);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SearchResultsBlankInputs')
+data.setCell(3, 2, 'capstone.pharmeasy.pim.Carrers_Search')
+data.setCell(3, 3, 22539);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddToCart')
+data.setCell(4, 2, 'capstone.pharmeasy.pim.CartPageTest')
+data.setCell(4, 3, 16423);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'pharmeasyOrderFromValuetest')
+data.setCell(5, 2, 'capstone.pharmeasy.pim.PharmeasyTest')
+data.setCell(5, 3, 16112);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'check_invalid_deliverycode')
+data.setCell(6, 2, 'capstone.pharmeasy.pim.HomePageTest')
+data.setCell(6, 3, 15714);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'check_notinservice_deliverycode')
+data.setCell(7, 2, 'capstone.pharmeasy.pim.HomePageTest')
+data.setCell(7, 3, 12648);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'featureBrandtest')
+data.setCell(8, 2, 'capstone.pharmeasy.pim.PharmeasyTest')
+data.setCell(8, 3, 9644);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'pharmeasySearchtest')
+data.setCell(9, 2, 'capstone.pharmeasy.pim.PharmeasyTest')
+data.setCell(9, 3, 7343);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'check_valid_deliverycode')
+data.setCell(10, 2, 'capstone.pharmeasy.pim.HomePageTest')
+data.setCell(10, 3, 5432);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'RemoveCart')
+data.setCell(11, 2, 'capstone.pharmeasy.pim.CartPageTest')
+data.setCell(11, 3, 3285);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFileUpload')
+data.setCell(12, 2, 'capstone.pharmeasy.pim.PharmeasyTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">capstone.pharmeasy.pim.PharmeasyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">capstone.pharmeasy.pim.PartnerTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">capstone.pharmeasy.pim.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">capstone.pharmeasy.pim.CartPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">capstone.pharmeasy.cucumbertest.PharmeasyTestRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@41576e84)</span>
+              <div class="chronological-class-name">capstone.pharmeasy.pim.Carrers_Search</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">239 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("i am on the pharmeasy home page", "Pharmeasy pacakge functionality")</span>
-                <span class="method-start">774 ms</span>
+                <span class="method-name">SearchResultsValidInputs</span>
+                <span class="method-start">13568 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SearchResultsValidInputs status=SUCCESS method=Carrers_Search.SearchResultsValidInp...)</span>
+                <span class="method-start">41460 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">44506 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Add a personal care product to the cart", "Pharmeasy pacakge functionality")</span>
-                <span class="method-start">55125 ms</span>
+                <span class="method-name">check_valid_deliverycode</span>
+                <span class="method-start">54919 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=check_valid_deliverycode status=SUCCESS method=HomePageTest.check_valid_deliverycod...)</span>
+                <span class="method-start">60358 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.Carrers_Search</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">runScenario("Sort products by Discount", "Pharmeasy pacakge functionality")</span>
-                <span class="method-start">89716 ms</span>
+                <span class="method-name">SearchResultsBlankInputs</span>
+                <span class="method-start">63372 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SearchResultsBlankInputs status=SUCCESS method=Carrers_Search.SearchResultsBlankInp...)</span>
+                <span class="method-start">85911 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">120163 ms</span>
+                <span class="method-name">afterClass</span>
+                <span class="method-start">88930 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.PartnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">89925 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidFileds(Charan, 8367337635, dummy56@gmail.com, 411057)</span>
+                <span class="method-start">100497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ValidFileds status=SUCCESS method=PartnerTest.ValidFileds(java.lang.String, java.la...)</span>
+                <span class="method-start">126071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">BlankFields(null, 8367337635, dummy56@gmail.com, 411057)</span>
+                <span class="method-start">129147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=BlankFields status=SUCCESS method=PartnerTest.BlankFields(java.lang.String, java.la...)</span>
+                <span class="method-start">153470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">156485 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.PharmeasyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">157434 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">pharmeasySearchtest</span>
+                <span class="method-start">167253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=pharmeasySearchtest status=SUCCESS method=PharmeasyTest.pharmeasySearchtest()[pri:1...)</span>
+                <span class="method-start">174598 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">check_invalid_deliverycode</span>
+                <span class="method-start">177600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=check_invalid_deliverycode status=SUCCESS method=HomePageTest.check_invalid_deliver...)</span>
+                <span class="method-start">193318 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.PharmeasyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">featureBrandtest</span>
+                <span class="method-start">196332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=featureBrandtest status=SUCCESS method=PharmeasyTest.featureBrandtest()[pri:2, inst...)</span>
+                <span class="method-start">205978 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">check_notinservice_deliverycode</span>
+                <span class="method-start">208981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=check_notinservice_deliverycode status=SUCCESS method=HomePageTest.check_notinservi...)</span>
+                <span class="method-start">221632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">224645 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.PharmeasyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">pharmeasyOrderFromValuetest</span>
+                <span class="method-start">225842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethod([TestResult name=pharmeasyOrderFromValuetest status=FAILURE method=PharmeasyTest.pharmeasyOrderFromV...)</span>
+                <span class="method-start">241954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testFileUpload</span>
+                <span class="method-start">244959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">245005 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">245006 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">245006 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddToCart</span>
+                <span class="method-start">253725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=AddToCart status=SUCCESS method=CartPageTest.AddToCart()[pri:0, instance:capstone.p...)</span>
+                <span class="method-start">270162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">RemoveCart</span>
+                <span class="method-start">273164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=RemoveCart status=SUCCESS method=CartPageTest.RemoveCart()[pri:0, instance:capstone...)</span>
+                <span class="method-start">276449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">279457 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">capstone.pharmeasy.pim.Carrers_Search</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">280557 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
-<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

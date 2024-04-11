@@ -3,16 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Testng(failed)">
     <classes>
-      <class name="capstone.pharmeasy.pim.HomePageTest">
+      <class name="capstone.pharmeasy.pim.PharmeasyTest">
         <methods>
-          <include name="afterClass"/>
           <include name="afterTest"/>
-          <include name="check_notinservice_deliverycode"/>
+          <include name="testFileUpload"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="pharmeasyOrderFromValuetest"/>
           <include name="beforeClass"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- capstone.pharmeasy.pim.HomePageTest -->
+      </class> <!-- capstone.pharmeasy.pim.PharmeasyTest -->
     </classes>
   </test> <!-- Testng(failed) -->
 </suite> <!-- Failed suite [Suite] -->
