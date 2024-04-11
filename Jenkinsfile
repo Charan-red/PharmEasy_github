@@ -43,7 +43,7 @@ pipeline {
             
             always{
                 echo "Email related messages"
-                emailext attachLog: true, attachmentsPattern: 'reports/*.html', body: 'Expedia Test Message',subject: 'Expedia - Selenium scripts CI Integration',to: 'muthireddy08042001@gmail.com',mimeType: 'text/html'
+                emailext attachLog: true, attachmentsPattern: 'reports/*.html', body: 'PharmEasy Test Message',subject: 'PharmEasy - Selenium scripts CI Integration',to: 'kumbamcharan321@gmail.com',mimeType: 'text/html'
 
             }
 
@@ -54,9 +54,9 @@ pipeline {
                         alwaysLinkToLastBuild: false,
                         keepAll: true,
                         reportDir: 'reports/',
-                        reportFiles: 'Expedia_reports.html',
-                        reportName: 'Expedia Extent report',
-                        reportTitles: 'Expedia Report'
+                        reportFiles: 'PharmEasy_reports.html',
+                        reportName: 'PharmEasy Extent report',
+                        reportTitles: 'PharmEasy Report'
                     ])
             }
         }    
